@@ -1,0 +1,68 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 300px;
+  background-color: #ffa400;
+  border: 3px solid yellow;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.box-2 {
+  max-width: 500px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+}
+
+.box-3 {
+  white-space: nowrap;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1594125674965-70d796b6693f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80')
+    no-repeat center right / cover;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.link {
+  text-decoration: none;
+  background-color: lightblue;
+  padding: 8px 40px;
+  color: peru;
+  text-align: center;
+  margin-left: 5px;
+}
+.link--rounded {
+  border-radius: 5px;
+}
+
+.link--round {
+  border-radius: 50px;
+}
+
+.link:hover {
+  color: aqua;
+  background-color: blanchedalmond;
+}
